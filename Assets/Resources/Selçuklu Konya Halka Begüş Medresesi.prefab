@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7768987338789037904
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 5e15d6034b942c84a9716dbb32fb5814, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 286.83
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e15d6034b942c84a9716dbb32fb5814, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.000015258789
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e15d6034b942c84a9716dbb32fb5814, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 29.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e15d6034b942c84a9716dbb32fb5814, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e15d6034b942c84a9716dbb32fb5814, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e15d6034b942c84a9716dbb32fb5814, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e15d6034b942c84a9716dbb32fb5814, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e15d6034b942c84a9716dbb32fb5814, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e15d6034b942c84a9716dbb32fb5814, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5e15d6034b942c84a9716dbb32fb5814, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5244962840052224679, guid: 5e15d6034b942c84a9716dbb32fb5814, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: dc4e778fb38d4ce49acc81112f1ca52a, type: 2}
+    - target: {fileID: -5244962840052224679, guid: 5e15d6034b942c84a9716dbb32fb5814, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: dc4e778fb38d4ce49acc81112f1ca52a, type: 2}
+    - target: {fileID: -5244962840052224679, guid: 5e15d6034b942c84a9716dbb32fb5814, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: dc4e778fb38d4ce49acc81112f1ca52a, type: 2}
+    - target: {fileID: -5244962840052224679, guid: 5e15d6034b942c84a9716dbb32fb5814, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7b6e168a24996c442912b894221ad276, type: 2}
+    - target: {fileID: -5244962840052224679, guid: 5e15d6034b942c84a9716dbb32fb5814, type: 3}
+      propertyPath: m_Materials.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: dc4e778fb38d4ce49acc81112f1ca52a, type: 2}
+    - target: {fileID: 919132149155446097, guid: 5e15d6034b942c84a9716dbb32fb5814, type: 3}
+      propertyPath: m_Name
+      value: "Sel\xE7uklu Konya Halka Beg\xFC\u015F Medresesi"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 8828102218459640487, guid: 5e15d6034b942c84a9716dbb32fb5814, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e15d6034b942c84a9716dbb32fb5814, type: 3}
