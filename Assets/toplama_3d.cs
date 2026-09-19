@@ -15,8 +15,7 @@ public class toplama_3d : MonoBehaviour
     public TextMeshProUGUI Mesaj;
     public string csvFileName;
     public TextMeshProUGUI skor;
-    public int sikke=0;
-
+    public int sikke = 0;
 
     private Dictionary<string, string> sceneFileMap = new Dictionary<string, string>
     {
@@ -33,7 +32,8 @@ public class toplama_3d : MonoBehaviour
     IEnumerator Start()
     {
         Mesaj.text = "";
-        skor.text = "Toplanan: "+ sikke;
+        skor.text = "Sikke: " + sikke;
+
         string sceneName = SceneManager.GetActiveScene().name;
 
         if (sceneFileMap.TryGetValue(sceneName, out csvFileName))
@@ -51,7 +51,10 @@ public class toplama_3d : MonoBehaviour
                 Debug.Log("Dosya başarıyla okundu, içerik:");
                 Debug.Log(csvContent);
 
-                fileLines = new List<string>(csvContent.Split(new[] { '\n' }, System.StringSplitOptions.RemoveEmptyEntries));
+                fileLines = new List<string>(csvContent.Split(
+                    new[] { '\n' },
+                    System.StringSplitOptions.RemoveEmptyEntries
+                ));
             }
             else
             {
@@ -76,6 +79,9 @@ public class toplama_3d : MonoBehaviour
             Debug.LogError("Sahne adı tanınmadı: " + sceneName);
             fileLines = new List<string> { "Hata: Sahne adı tanımlı değil." };
         }
+
+        // En önemli satır: tüm kod yolları buraya düşüyor, IEnumerator düzgün bitiyor
+        yield break;
     }
 
     private void OnCollisionEnter(Collision collision)
